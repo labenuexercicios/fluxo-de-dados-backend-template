@@ -1,0 +1,21 @@
+### Get all courses
+GET http://localhost:3003/courses
+
+### Get course by name
+GET http://localhost:3003/courses/react
+
+### Get all students
+GET http://localhost:3003/students
+
+### Get student by name
+GET http://localhost:3003/students/search?student=maria
+
+### Add new student
+POST http://localhost:3003/students
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "Carlos",
+  "age": 21
+}
